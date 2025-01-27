@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  /* Previous styles remain the same until skills-list */
+  body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    line-height: 1.6;
+  }
+  
+  .header {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .name {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #FF69B4;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    font-family: Avenir, "Avenir", serif;
+  }
+  
+  .contact-info {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .section-title {
+    font-size: 1.5em;
+    color: #FF69B4;
+    border-bottom: 2px solid #FF69B4;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-family: Avenir, "Avenir", serif;
+  }
+
+  /* Updated skills-list styling */
+  .skills-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 12px;
+    padding: 10px 0;
+  }
+  
+  .skill-item {
+    background-color: #FFE4E1;
+    padding: 8px 15px;
+    border-radius: 20px;
+    color: #333;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 35px;
+    font-size: 0.95em;
+    transition: background-color 0.2s;
+  }
+  
+  .skill-item:hover {
+    background-color: #FFB6C1;
+  }
+
+  /* Software section specific styling */
+  .software-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 12px;
+    padding: 10px 0;
+  }
+
+  /* Rest of the styles remain the same */
+  .job-title {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .company {
+    font-weight: bold;
+  }
+  
+  .date {
+    float: right;
+    color: #666;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  li {
+    margin-bottom: 8px;
+    position: relative;
+    padding-left: 20px;
+  }
+  
+  li:before {
+    content: "-";
+    font-weight: bold;
+    color: #FF69B4;
+    position: absolute;
+    left: 0;
+  }
+</style>
+</head>
+<body>
+  <div class="header">
+    <div class="name">MADELINE SINKOVIC</div>
+    <div class="contact-info">
+      832-702-0192 | maddysinkovic@gmail.com<br>
+      maddysinkovic.com | linkedin.com/in/madeline-sinkovic
+    </div>
+  </div>
+
+  <div class="section-title">ABOUT</div>
+  <div class="content">
+    While earning my Bachelor of Science in Creative Technology and Design Engineering with a minor in Entrepreneurship at the University of Colorado Boulder, I developed a deep passion for creative problem-solving and designing intuitive, engaging digital experiences. Now, as a Master's candidate in Strategic Communication Design at CU, I am refining my skills in User Experience Design to craft innovative, user-centered solutions that drive connection and impact.
+  </div>
+
+  <div class="section-title">SKILLS</div>
+  <div class="skills-list">
+    <span class="skill-item">UX Design</span>
+    <span class="skill-item">Interaction Design</span>
+    <span class="skill-item">Information Architecture</span>
+    <span class="skill-item">UX Research</span>
+    <span class="skill-item">Brand Design</span>
+    <span class="skill-item">Graphic Design</span>
+    <span class="skill-item">Game Design</span>
+    <span class="skill-item">Project Management</span>
+    <span class="skill-item">Front-End Development</span>
+    <span class="skill-item">Leadership</span>
+    <span class="skill-item">Collaboration</span>
+    <span class="skill-item">Agile Methodology</span>
+  </div>
+
+  <div class="section-title">SOFTWARE</div>
+  <div class="skills-list">
+    <span class="skill-item">Figma</span>
+    <span class="skill-item">InVision</span>
+    <span class="skill-item">Sketch</span>
+    <span class="skill-item">Adobe Illustrator</span>
+    <span class="skill-item">Adobe Photoshop</span>
+    <span class="skill-item">Google Analytics</span>
+    <span class="skill-item">Canva</span>
+    <span class="skill-item">Maze</span>
+
+  </div>
+
+  <!-- Rest of the experience section remains the same -->
+  <div class="section-title">EXPERIENCE</div>
+  <div class="experience-item">
+    <div class="job-title">
+      UX Design Technologist
+      <span class="date">May - August 2023</span>
+    </div>
+    <div class="company">Trimble Inc</div>
+    <ul>
+      <li>Led the design and development of 5 user interfaces to discover how new features and component updates would impact current UI and improve development efficiency</li>
+      <li>Conducted user research, including 20+ user interviews, surveys, and usability tests, to gather insights and inform design decisions</li>
+      <li>Collaborated closely with 3 cross-functional teams, including designers, developers, and product managers, to ensure a seamless user experience</li>
+    </ul>
+  </div>
+
+  <div class="experience-item">
+    <div class="job-title">
+      UX Design and SEO Consultant
+      <span class="date">May - August 2023</span>
+    </div>
+    <div class="company">Eye Defense Vitamins</div>
+    <ul>
+      <li>Performed in-depth website audits to identify technical SEO issues, potential usability improvements, and on-page optimization opportunities</li>
+      <li>Created and implemented SEO strategies to improve organic search visibility and rankings by 52%</li>
+      <li>Partnered with stakeholders to define project goals and user-centric design objectives</li>
+    </ul>
+  </div>
+
+  <div class="experience-item">
+    <div class="job-title">
+      Engineering Ambassador
+      <span class="date">June 2022 - Present</span>
+    </div>
+    <div class="company">University of Colorado Boulder College of Engineering and Applied Science</div>
+    <ul>
+      <li>Connect with peers and prospective students in the College of Engineering to encourage successful social and academic development</li>
+      <li>Provide mentorship and advise students on coursework, academic opportunities, and extracurricular activities</li>
+      <li>Direct tours of 20+ prospective families throughout the engineering center facilities and lead recruitment sessions of 50+ individuals alongside the Dean and department chairs</li>
+    </ul>
+  </div>
+</body>
+</html>
